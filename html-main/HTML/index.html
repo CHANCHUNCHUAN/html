@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>明駿國際車業</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+        type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <script src="js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>明駿國際車業</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<h1>明駿國際車業</h1>
+
+<body>
+    <header>
+        <button class="menu">&#9776;</button>
+        
+        <nav>
+            <ul>
+                <li><a href="最新消息.html">最新消息</a></li>
+                <li><a href="https://www.facebook.com/KW3918yahoo.com.tw/?locale=zh_TW">關於我們</a></li>
+                <li><a href="https://www.google.com/maps/place/%E6%98%8E%E9%A7%BF%E5%9C%8B%E9%9A%9B%E8%BB%8A%E6%A5%AD/@24.841247,120.9911308,17z/data=!3m1!4b1!4m6!3m5!1s0x346836989bd2413f:0xc9cf439e4b50b0ae!8m2!3d24.841247!4d120.9937057!16s%2Fg%2F11dyl_m0gx?entry=ttu">店面地址</a></li>
+                <li><a href="https://tw.usedcar.yahoo.com/booth/seller/Y3616126800#!kw=&catid=&store_name=Y3616126800&undedup=1&unspc=1&cata=000000515224&catb=&pricea=&priceb=&items=&areaa=&areab=&areac=&sort=3&cp=1&ppa=30&pa=10&vmode=0l">在庫車輛</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section class="news">
+            
+            <h2 id="me">完美車況呈現 歡迎蒞臨鑒賞！</h2>
+            <p></p>
+           
+        </section>
+
+        <section class="slogan">
+            <blockquote>" 嚴選優質中古車 讓與車相處的每一刻都幸福 "</blockquote>
+        </section>
+
+        <section class="shop">
+            <img src="images/in.png" alt="竹北 明駿國際車業">
+            <div class="info">
+                <h2>服務多元</h2>
+                <p>舒適賞車空間 完美售後服務</p>
+            </div>
+        </section>
+
+        <section class="product">
+            <div>
+                <a href = "在庫車輛.html" target="_blank"><img src="images/m5.png" alt="汽車交易"></a>
+                <h3>汽車交易</h3>
+                <p>販售與高價收購</p>
+            </div>
+            <div>
+                <a href = "店面地址.html" target="_blank"><img src="images/代客尋車.png" alt="代客尋車"></a>
+                <h3>代客尋車</h3>
+                <p>特殊車款 境外代購</p>
+            </div>
+            <div>
+                <a href = "最新消息.html" target="_blank"><img src="images/聚會.png" alt="車聚活動"></a>
+                <h3>車聚活動</h3>
+                <p>不定時舉辦夜跑車聚活動</p>
+            </div>
+        </section>
+        <section class="newsletter">
+            <p>多加瀏覽 獲取更多店內資訊</p>
+            <form>
+                <input type="email" placeholder="請輸入您的 Email" required>
+                <button type="submit">送出</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>MJ Motor 明駿汽車 For U We Are The Best.</p>
+    </footer>
+</body>
+<script>
+    gsap.to("#me",{
+            scrollTrigger:{
+               scrub:1 
+            },
+            scale : 0.2,
+            transformOrigin: "50% 100%"
+          }
+        )
+
+</script>
+
+</html>
